@@ -1,0 +1,13 @@
+class HelloWorld
+{
+static void Main()
+{
+string a = "hello";
+string b = a;
+System.Console.WriteLine(a);
+System.Console.WriteLine(b);
+b = "Hi";
+System.Console.WriteLine(a);
+System.Console.WriteLine(b);
+}
+}
